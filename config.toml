@@ -15,7 +15,7 @@ theme = 'bootstrap-bp-hugo-theme'
 [languages]
     [languages.en]
         languageName = "English"
-        contentDir = "content/english"
+        contentDir = "/content/english"
         title = "Emotions in Drama"
         weight = 1
         
@@ -46,4 +46,35 @@ theme = 'bootstrap-bp-hugo-theme'
             identifier = "Imprint"
             name = "Imprint"
             url = "/imprint/"
+            weight = 10
+
+        [languages.de]
+        languageName = "Deutsch"
+        contentDir = "/content/german"
+        title = "Emotionen in Dramen"
+        weight = 2
+        
+        [languages.de.menu]
+        [[languages.de.menu.main]]
+            identifier = "ueber"
+            name = "Über"
+            url = "/über/"
+            weight = 10
+            
+        [[languages.de.menu.main]]
+            identifier = "autoren"
+            name = "Team"
+            url = "/autoren/"
+            weight = 30
+
+        [[languages.de.menu.main]]
+            identifier = "publikationen"
+            name = "Publikationen"
+            url = "/publikationen/"
+            weight = 40
+            
+        [[languages.de.menu.footer]]
+            identifier = "impressum"
+            name = "Impressum"
+            url = "/impressum/"
             weight = 10
