@@ -1,4 +1,4 @@
-baseURL = 'https://sarahkurek.github.io/'
+# baseURL = 'https://sarahkurek.github.io/'
 languageCode = 'en-us'
 title = 'Emotions in Drama'
 author = 'Sarah Kurek'
@@ -8,7 +8,6 @@ theme = 'bootstrap-bp-hugo-theme'
   name = "Sarah Kurek"
 
 [params]
-    # startPageColumns = true
     alwaysExpandMenu = true
     hideReadingTime = true
 
@@ -56,14 +55,14 @@ theme = 'bootstrap-bp-hugo-theme'
         
         [languages.de.menu]
         [[languages.de.menu.main]]
-            identifier = "ueber"
-            name = "Über"
-            url = "/über/"
+            identifier = "info"
+            name = "Info"
+            url = "/info/"
             weight = 10
             
         [[languages.de.menu.main]]
             identifier = "autoren"
-            name = "Team"
+            name = "Autoren"
             url = "/autoren/"
             weight = 20
 
