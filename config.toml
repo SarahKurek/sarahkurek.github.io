@@ -8,14 +8,14 @@ theme = 'bootstrap-bp-hugo-theme'
   name = "Sarah Kurek"
 
 [params]
-    startPageColumns = true
+    # startPageColumns = true
     alwaysExpandMenu = true
     hideReadingTime = true
 
 [languages]
     [languages.en]
         languageName = "English"
-        contentDir = "/content/english"
+        contentDir = "content/english"
         title = "Emotions in Drama"
         weight = 1
         
@@ -31,14 +31,14 @@ theme = 'bootstrap-bp-hugo-theme'
             identifier = "team"
             name = "Team"
             url = "/team/"
-            weight = 30
+            weight = 20
             pre = "<i class='fas fa-address-card'></i>"
             
         [[languages.en.menu.main]]
             identifier = "publications"
             name = "Publications"
             url = "/publications/"
-            weight = 40
+            weight = 30
             pre = "<i class='fas fa-file'></i>"
 
 
@@ -50,7 +50,7 @@ theme = 'bootstrap-bp-hugo-theme'
 
         [languages.de]
         languageName = "Deutsch"
-        contentDir = "/content/german"
+        contentDir = "content/german"
         title = "Emotionen in Dramen"
         weight = 2
         
@@ -65,13 +65,13 @@ theme = 'bootstrap-bp-hugo-theme'
             identifier = "autoren"
             name = "Team"
             url = "/autoren/"
-            weight = 30
+            weight = 20
 
         [[languages.de.menu.main]]
             identifier = "publikationen"
             name = "Publikationen"
             url = "/publikationen/"
-            weight = 40
+            weight = 30
             
         [[languages.de.menu.footer]]
             identifier = "impressum"
