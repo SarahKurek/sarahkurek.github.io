@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://sarahkurek.github.io/'
 languageCode = 'en-us'
 title = 'Emotions in Drama'
 author = 'Sarah Kurek'
@@ -11,7 +11,6 @@ theme = 'bootstrap-bp-hugo-theme'
     startPageColumns = true
     alwaysExpandMenu = true
     hideReadingTime = true
-    # themeColor = 'light'
 
 [languages]
     [languages.en]
@@ -26,13 +25,7 @@ theme = 'bootstrap-bp-hugo-theme'
         url = "/about/"
         weight = 10
         pre = "<i class='fas fa-clipboard'></i>"
-        
-        [[languages.en.menu.main]]
-            identifier = "news"
-            name = "News"
-            url = "/news/"
-            weight = 20
-            pre = "<i class='fas fa-newspaper'></i>"
+    
             
         [[languages.en.menu.main]]
             identifier = "team"
@@ -54,42 +47,3 @@ theme = 'bootstrap-bp-hugo-theme'
             name = "Imprint"
             url = "/imprint/"
             weight = 10
-    
-    
-    [languages.de]
-        languageName = "Deutsch"
-        contentDir = "content/german"
-        title = "Emotionen in Dramen"
-        weight = 2
-        
-        [languages.de.menu]
-        [[languages.de.menu.main]]
-            identifier = "ueber"
-            name = "Über"
-            url = "/über/"
-            weight = 10
-    
-        [[languages.de.menu.main]]
-            identifier = "neues"
-            name = "Neues"
-            url = "/neues/"
-            weight = 20
-            
-        [[languages.de.menu.main]]
-            identifier = "autoren"
-            name = "Team"
-            url = "/autoren/"
-            weight = 30
-
-        [[languages.de.menu.main]]
-            identifier = "publikationen"
-            name = "Publikationen"
-            url = "/publikationen/"
-            weight = 40
-            
-        [[languages.de.menu.footer]]
-            identifier = "impressum"
-            name = "Impressum"
-            url = "/impressum/"
-            weight = 10
-
