@@ -1,7 +1,7 @@
 ---
 title: "Autoren"
 date: 2021-08-26T14:08:56+02:00
-draft: true
+draft: false
 ---
 
 # Max Mustermann

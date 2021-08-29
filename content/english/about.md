@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-08-23T11:27:32+02:00
-draft: true
+draft: false
 ---
 
 ## This is a description for the project.

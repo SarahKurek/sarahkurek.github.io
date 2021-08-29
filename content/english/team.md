@@ -1,7 +1,7 @@
 ---
 title: "Team"
 date: 2021-08-23T12:08:56+02:00
-draft: true
+draft: false
 ---
 
 # Max Mustermann

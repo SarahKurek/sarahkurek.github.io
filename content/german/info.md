@@ -1,7 +1,7 @@
 ---
 title: "Info"
 date: 2021-08-26T14:27:32+02:00
-draft: true
+draft: false
 ---
 
 ## Das ist eine Beschreibung des Projekts.

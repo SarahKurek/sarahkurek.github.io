@@ -1,5 +1,5 @@
-# baseURL = 'https://sarahkurek.github.io/'
-languageCode = 'en-us'
+baseURL = 'https://sarahkurek.github.io/'
+#languageCode = 'en-us'
 title = 'Emotions in Drama'
 author = 'Sarah Kurek'
 theme = 'bootstrap-bp-hugo-theme'
@@ -47,7 +47,7 @@ theme = 'bootstrap-bp-hugo-theme'
             url = "/imprint/"
             weight = 10
 
-        [languages.de]
+    [languages.de]
         languageName = "Deutsch"
         contentDir = "content/german"
         title = "Emotionen in Dramen"
@@ -57,23 +57,23 @@ theme = 'bootstrap-bp-hugo-theme'
         [[languages.de.menu.main]]
             identifier = "info"
             name = "Info"
-            url = "/info/"
+            url = "/de/info/"
             weight = 10
             
         [[languages.de.menu.main]]
             identifier = "autoren"
             name = "Autoren"
-            url = "/autoren/"
+            url = "/de/autoren/"
             weight = 20
 
         [[languages.de.menu.main]]
             identifier = "publikationen"
             name = "Publikationen"
-            url = "/publikationen/"
+            url = "/de/publikationen/"
             weight = 30
             
         [[languages.de.menu.footer]]
             identifier = "impressum"
             name = "Impressum"
-            url = "/impressum/"
+            url = "/de/impressum/"
             weight = 10
