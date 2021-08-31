@@ -3,6 +3,7 @@ baseURL = 'https://sarahkurek.github.io/'
 title = 'Emotions in Drama'
 author = 'Sarah Kurek'
 theme = 'bootstrap-bp-hugo-theme'
+enableInlineShortcodes = true
 
 [Author]  
   name = "Sarah Kurek"
