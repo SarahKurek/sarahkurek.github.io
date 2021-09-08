@@ -41,6 +41,27 @@ enableInlineShortcodes = true
             weight = 30
             pre = "<i class='fas fa-file'></i>"
 
+        [[languages.en.menu.main]]
+            identifier = "tab1"
+            name = "Tab1"
+            url = "/tab1/"
+            weight = 40
+            pre = "<i class='fas fa-file'></i>"
+
+        [[languages.en.menu.main]]
+            identifier = "tab2"
+            name = "Tab2"
+            url = "/tab2/"
+            weight = 50
+            pre = "<i class='fas fa-file'></i>"
+
+        [[languages.en.menu.main]]
+            identifier = "tab3"
+            name = "Tab3"
+            url = "/tab3/"
+            weight = 60
+            pre = "<i class='fas fa-file'></i>"
+
 
         [[languages.en.menu.footer]]
             identifier = "Imprint"
