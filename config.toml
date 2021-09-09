@@ -4,6 +4,7 @@ title = 'Emotions in Drama'
 author = 'Sarah Kurek'
 theme = 'bootstrap-bp-hugo-theme'
 enableInlineShortcodes = true
+disableLanguages = 'de'
 
 [Author]  
   name = "Sarah Kurek"
@@ -64,10 +65,16 @@ enableInlineShortcodes = true
 
 
         [[languages.en.menu.footer]]
-            identifier = "Imprint"
+            identifier = "imprint"
             name = "Imprint"
-            url = "/imprint/"
+            url = "https://www.uni-regensburg.de/impressum/startseite/index.html"
             weight = 10
+
+        [[languages.en.menu.footer]]
+            identifier = "privacy"
+            name = "Privacy"
+            url = "https://www.uni-regensburg.de/datenschutz/startseite/index.html"
+            weight = 20
 
     [languages.de]
         languageName = "Deutsch"
@@ -97,5 +104,11 @@ enableInlineShortcodes = true
         [[languages.de.menu.footer]]
             identifier = "impressum"
             name = "Impressum"
-            url = "/de/impressum/"
+            url = "https://www.uni-regensburg.de/impressum/startseite/index.html"
+            weight = 10
+
+        [[languages.de.menu.footer]]
+            identifier = "datenschutz"
+            name = "Datenschutz"
+            url = "https://www.uni-regensburg.de/datenschutz/startseite/index.html"
             weight = 10
