@@ -1,5 +1,5 @@
 baseURL = 'https://sarahkurek.github.io/'
-#languageCode = 'en-us'
+# languageCode = 'en-us'
 title = 'Emotions in Drama'
 author = 'Sarah Kurek'
 theme = 'bootstrap-bp-hugo-theme'
@@ -112,3 +112,11 @@ disableLanguages = 'de'
             name = "Datenschutz"
             url = "https://www.uni-regensburg.de/datenschutz/startseite/index.html"
             weight = 10
+
+
+[social]
+  # Social Links with corresponding Icons
+  # for further options see https://github.com/spech66/bootstrap-bp-hugo-theme#social-icons
+
+  twitter          = "search?q=%23EmoDrama&src=typed_query&f=live"
+  # github           = ""

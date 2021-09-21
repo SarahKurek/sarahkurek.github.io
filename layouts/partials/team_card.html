@@ -1,3 +1,16 @@
+{{ if eq .Params.image "" }}
+<div class="col mb-4">
+    <div class="card h-100">
+        <div class="card-body">
+            <h5 class="card-title">{{ .Description | markdownify }}</h5>
+            <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h5>
+            <p class="card-text">{{ .Content }}</p>
+        </div>
+    </div>
+</div> 
+
+
+{{ else }}
 <div class="col mb-4">
     <div class="card h-100">
         <div class="row m-2">
@@ -6,6 +19,7 @@
             </div>
             <div class="col-md-7">
                 <div class="card-body">
+                    <h5 class="card-title">{{ .Description | markdownify }}</h5>
                     <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h5>
                     <p class="card-text">{{ .Content }}</p>
                 </div>
@@ -13,3 +27,4 @@
         </div>
     </div>
 </div>
+{{ end }}
