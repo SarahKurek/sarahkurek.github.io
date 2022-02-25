@@ -9,7 +9,7 @@ Text ...
 
 ---
 ## Image
-{{< figure src="/home-office-336377_1920.jpg" title="Test Title" >}}
+{{< figure src="/home-office-336377_1920.jpg" title="Test Title" height="80px" width="80px" >}}
 <!-- image source: https://pixabay.com/de/photos/heimb%c3%bcro-arbeitsplatz-b%c3%bcro-gesch%c3%a4ft-336377/ -->
 
 ---
